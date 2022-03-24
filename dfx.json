@@ -4,6 +4,14 @@
       "main": "src/testa/main.mo",
       "type": "motoko"
     },
+    "testa2": {
+      "main": "src/testa/main.mo",
+      "type": "motoko"
+    },
+    "testa3": {
+      "main": "src/testa/main.mo",
+      "type": "motoko"
+    },
     "testa_assets": {
       "dependencies": [
         "testa"
