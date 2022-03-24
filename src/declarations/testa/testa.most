@@ -1,0 +1,8 @@
+type Follow = {author : ?Text; pid : Text};
+type List<T> = ?(T, List<T>);
+type Message = {author : Text; text : Text; time : Time};
+actor {
+  stable var authorName : Text;
+  stable var followed : ?(Follow, List<Follow>);
+  stable var messages : ?(Message, List<Message>)
+};
